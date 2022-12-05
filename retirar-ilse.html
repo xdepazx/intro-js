@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM - Ilse</title>
+</head>
+<body>
+    <div class="container mt-5 text-center">
+        <h1>Ingresa la cantidad que deseas retirar:</h1>
+            <!-- <input type="number" class="mt-5" name="rt" id="retiro" required>  -->
+        <div class="mt-5">
+            <input type="button" class="mb-4 btn btn-outline-dark" name="retirar" value="Retirar" pattern="[0-9]+" onClick="return retiroIlse()"> <br>
+            <p id="rt-realizado"> </p>
+            <a class="btn btn-outline-dark" href="ingreso-ilse.html" role="button">Realizar otra operación</a>
+            <a class="btn btn-outline-dark" href="atm-home2.html" role="button">Salir</a>
+        </div>
+    </div>
+
+<script src="atm.js"></script>
+</body>
+</html>
